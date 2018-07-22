@@ -616,7 +616,7 @@ var cryptoSockets = {
 
         try {
             Sockets[title].on('open', function(event) {
-                console.log(title + ' open');
+                //console.log(title + ' open');
                 if (typeof Exchanges[title] == "undefined" && title != "gemini2") {
                     Exchanges[title] = {};
                 }
